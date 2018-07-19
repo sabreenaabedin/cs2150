@@ -1,0 +1,27 @@
+//objects.cpp
+
+#include <iostream>
+#include "testclass.h"
+using namespace std;
+
+class objects{
+friend class testclass;
+};
+
+void marker();
+
+int main(){
+  
+  subclass s;
+  testclass* tc = new testclass(s);
+
+  marker();
+  int i = tc->a;
+  char b = tc->b;ddfsdfsd
+  subclass sub = tc->c;
+  int i2 = tc->d;
+  
+  
+
+  return 0;
+}

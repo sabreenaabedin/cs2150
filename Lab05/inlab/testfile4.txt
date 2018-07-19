@@ -1,0 +1,6 @@
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+//Sabreena Abedin (sa7cx) 3/2/16 testfile4.txt
+
+When entering the entire alphabet in order, a BST will essentially just creat a linked list while an AVL tree will continue to balance the nodes as they come in. This example shows the difference between putting putting in effort during insert versus putting in more effort to find the item. When inserting all the nodes, the AVL tree must do 21 single rotations which is an extra step at almost every insert. However, when it goes to search for z, the last item in the list, it only has 4 links to follow out of the 26 nodes, rather than moving down 25 links to search like the BST. 

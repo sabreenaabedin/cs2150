@@ -1,0 +1,6 @@
+Sabreena Abedin (sa7cx) suggestions.txt
+
+Before the first lab, explain how to get to the lab materials from the console by either explaining this in class or making it part of the assigned readings. Otherwise the TAs are swamped trying to help us one by one figure out how to do basic navigation.
+
+Cover some of the shell scripting/debugger/other things we covered in lab during lecture time. It was really overwhelming to have new material in tuturials, lectures, and labs all coming at once. 
+

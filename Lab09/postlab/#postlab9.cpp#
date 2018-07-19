@@ -1,0 +1,24 @@
+//testfile for postlab9.cpp
+
+int  multiplication(int x, int y){ //multiplication
+    return x*y;
+  }
+int prop(){ //constant propagation
+  int a = 1;
+  int b = 3;
+  int c = a + b;
+  return c *2;
+}
+int main(){
+  int x = 5;
+  int y = 3;
+  int z = 4; //dead code 
+  int q = multiplication(x,y);
+  int r = prop();
+  if(0){
+    char a = 'a'; //unused local variable
+  }
+  return 0;
+  int s = 2; //unreachable code
+  int t = s + s;
+}

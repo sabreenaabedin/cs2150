@@ -1,0 +1,15 @@
+//testing2.cpp
+
+void arraybyvalue(int arr[3]){
+}
+void arraybyreference(int (&arr)[3]){
+}
+main(){
+  
+  int arr [3] = {0, 1, 2};
+  int e = arr[0]; //access array element 
+ 
+  arraybyvalue(arr);
+  arraybyreference(arr);
+  return 0;
+}

@@ -1,0 +1,152 @@
+testfile 3 
+Please enter the name of a file of words: testfile3.txt                         
+ zany cobwebs littered the clockwork orange landscape like misty works of surreal art                                                                           
+13 words in this text                                                           
+                                                                                
+                                                                                
+BST:                                                                            
+Left links followed = 0                                                         
+Right links followed = 0
+Total number of nodes = 13
+Avg. node depth = 3.23077
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 13
+Single Rotations = 1
+Double Rotations = 2
+Avg. node depth = 2.23077
+
+        Enter word to lookup > the
+        Word was found: the
+BST: 
+Left links followed = 1
+Right links followed = 2
+Total number of nodes = 13
+Avg. node depth = 3.23077
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 1
+Total number of nodes = 13
+Single Rotations = 1
+Double Rotations = 2
+Avg. node depth = 2.23077
+
+
+
+testfile 4
+Please enter the name of a file of words: testfile4.txt
+ a b c d e f g h i j k l m n o p q r s t u v w x y z
+26 words in this text
+
+
+BST: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 26
+Avg. node depth = 12.5
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 26
+Single Rotations = 21
+Double Rotations = 0
+Avg. node depth = 3
+
+        Enter word to lookup > z
+        Word was found: z
+BST: 
+Left links followed = 0
+Right links followed = 25
+Total number of nodes = 26
+Avg. node depth = 12.5
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 4
+Total number of nodes = 26
+Single Rotations = 21
+Double Rotations = 0
+Avg. node depth = 3
+
+
+
+
+
+
+
+
+
+Please enter the name of a file of words: testfile1.txt                         
+ we can't solve problems by using the same kind of thinking we used when we created them -albert einstein                                                       
+19 words in this text                                                           
+                                                                                
+                                                                                
+BST:                                                                            
+Left links followed = 0                                                         
+Right links followed = 0                                                        
+Total number of nodes = 19                                                      
+Avg. node depth = 3.15789
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 19
+Single Rotations = 2
+Double Rotations = 2
+Avg. node depth = 2.26316
+
+        Enter word to lookup > same
+        Word was found: same
+BST: 
+Left links followed = 2
+Right links followed = 2
+Total number of nodes = 19
+Avg. node depth = 3.15789
+
+AVL Tree: 
+Left links followed = 1
+Right links followed = 2
+Total number of nodes = 19
+Single Rotations = 2
+Double Rotations = 2
+Avg. node depth = 2.26316
+
+student@cassiopeia:~/Dropbox/CS2150/Lab05/inlab$ ./a.out
+Please enter the name of a file of words: testfile2.txt
+ a bee caught dung everywhere flying greatly higher in mauve skies than we had ever flown
+16 words in this text
+
+
+BST: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 16
+Avg. node depth = 6.0625
+
+AVL Tree: 
+Left links followed = 0
+Right links followed = 0
+Total number of nodes = 16
+Single Rotations = 9
+Double Rotations = 0
+Avg. node depth = 2.5
+
+        Enter word to lookup > flown
+        Word was found: flown
+BST: 
+Left links followed = 1
+Right links followed = 5
+Total number of nodes = 16
+Avg. node depth = 6.0625
+
+AVL Tree: 
+Left links followed = 2
+Right links followed = 2
+Total number of nodes = 16
+Single Rotations = 9
+Double Rotations = 0
+Avg. node depth = 2.5
